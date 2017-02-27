@@ -27,9 +27,9 @@ Vagrant.configure("2") do |config|
     ########################################################################## 
     aws.ami = "ami-f4cc1de2"
     aws.instance_type = "t2.micro"
-    aws.region = "us-east-1"
+    aws.region = "<AWS REGION>"
     aws.subnet_id = "<SUBNET ID>"
-    aws.security_groups = ['<VPC SECURITY GROUP']
+    aws.security_groups = ['<VPC SECURITY GROUP>']
     
     
     ##########################################################################
